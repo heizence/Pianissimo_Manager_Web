@@ -1,4 +1,4 @@
-const serverURL = "http://192.168.0.115.213:8000/";
+import { SERVER_URL } from "./secretKeys";
 
 // HTTP GET 요청
 const commonGetAPI = (path, data) => {
@@ -7,7 +7,7 @@ const commonGetAPI = (path, data) => {
     params.append(key, data[key]);
   }
 
-  const requestURL = serverURL + path + ".php?" + params;
+  const requestURL = SERVER_URL + path + ".php?" + params;
   const token = localStorage.getItem("token");
 
   return fetch(requestURL, {
@@ -30,7 +30,7 @@ const commonGetAPI = (path, data) => {
 
 // HTTP POST 요청
 const commonPostAPI = (path, data) => {
-  const requestURL = serverURL + path + ".php";
+  const requestURL = SERVER_URL + path + ".php";
   const token = localStorage.getItem("token");
 
   return fetch(requestURL, {
