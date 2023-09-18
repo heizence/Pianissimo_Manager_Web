@@ -1,0 +1,36 @@
+/* 컨텐츠가 표시되는 영역 */
+#eachNotice_container {
+  min-height: 95vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* 타이틀 */
+#eachNotice_title {
+  margin-top: 40px;
+}
+/* 작성자, 작성 날짜 텍스트 */
+.eachNotice_infoTxt {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+/* 내용 */
+#eachNotice_contents {
+  white-space: pre-wrap; /* 줄바꿈 표시 */
+}
+/* 버튼 영역 */
+#eachNotice_btnDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* 각 버튼 공통 스타일 */
+.eachNotice_eachBtn {
+  padding: 5px 10px;
+  font-size: 17px;
+}
+#eachNotice_editBtn {
+  margin-right: 20px;
+}

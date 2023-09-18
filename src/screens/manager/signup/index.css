@@ -1,0 +1,42 @@
+/* 전체 컨테이너 */
+#signup_container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* 화면 header title */
+#signup_header {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+/* 입력창 라벨 */
+.signup_inputLabel {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+/* 입력창 */
+.signup_input {
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+/* 로그인 버튼 */
+#signup_signupBtn {
+  width: 100px;
+  font-size: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-width: 0px;
+}
+
+/* 회원가입, 아이디 찾기, 비밀번호 재발급 */
+#signup_otherOptions {
+  margin-top: 20px;
+}
+.signup_option {
+  margin-left: 20px;
+}

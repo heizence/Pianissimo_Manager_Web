@@ -1,0 +1,66 @@
+/* 컨텐츠가 표시되는 영역 */
+#noticeMain_container {
+  min-height: 95vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+/* 메인 헤더 타이틀 */
+#noticeMain_header {
+  margin-top: 40px;
+}
+
+/* 공지사항이 표시되는 테이블 */
+#noticeMain_table {
+  border: 1px black solid;
+  min-height: 50px;
+}
+
+/* 테이블 헤더 */
+#noticeMain_tableHeader {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px black solid;
+  padding: 10px 0px;
+}
+/* 테이블 본문 각 내용 */
+#noticeMain_tableEachContent {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0px;
+  cursor: pointer;
+}
+/* 테이블의 각 칸 스타일(헤더, 본문 모두 해당) */
+.noticeMain_tableEachBlock {
+  padding: 0px 10px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#noticeMain_eachTitle {
+  width: 30%;
+}
+#noticeMain_eachContents {
+  width: 50%;
+}
+#noticeMain_eachWrittenDate {
+  width: 20%;
+}
+/* 공지사항 등록 버튼 */
+#noticeMain_registerBtnDiv {
+  margin-top: 20px;
+  text-align: right;
+}
+#noticeMain_registerBtn {
+  padding: 5px 10px;
+  font-size: 17px;
+}
+/* 공지사항 없음 표시 텍스트 */
+#noticeMain_noContents {
+  height: 50px; /* 테이블의 min-height 값과 동일 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

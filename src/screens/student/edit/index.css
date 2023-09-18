@@ -1,0 +1,49 @@
+/* 전체 컨테이너 */
+#editStudent_container {
+  min-height: 95vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* 화면 header title */
+#editStudent_header {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+/* 입력 영역 */
+#editStudent_inputSection {
+  margin: auto auto;
+}
+/* 각 입력창 div */
+.editStudent_eachInputSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* 입력창 라벨 */
+.editStudent_inputLabel {
+  display: inline;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+/* 입력창 */
+.editStudent_input {
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+/* 버튼 영역 */
+#editStudent_buttonDiv {
+  margin-top: 40px;
+}
+/* 완료, 취소 버튼 */
+.editStudent_eachBtn {
+  font-size: 16px;
+  padding: 8px 12px;
+  border-width: 0px;
+  margin-right: 20px;
+}

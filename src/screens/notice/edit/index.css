@@ -1,0 +1,42 @@
+/* 컨텐츠가 표시되는 영역 */
+#registerNotice_container {
+  min-height: 95vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* 타이틀 input */
+#registerNotice_title_input {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+}
+/* 작성 날짜 */
+#registerNotice_writtenDate {
+  display: block;
+  font-weight: bold;
+}
+/* 내용 textarea */
+#registerNotice_contents_textarea {
+  margin-top: 20px;
+  width: 100%;
+  min-height: 270px;
+  font-size: 17px;
+}
+/* 버튼 영역 */
+#registerNotice_btnDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+/* 각 버튼 공통 스타일 */
+.registerNotice_eachBtn {
+  padding: 5px 10px;
+  font-size: 17px;
+}
+#registerNotice_completeBtn {
+  margin-right: 20px;
+}

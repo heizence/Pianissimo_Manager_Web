@@ -1,0 +1,98 @@
+/* 컨텐츠가 표시되는 영역 */
+#instructorsMain_container {
+  min-height: 95vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+/* 메인 헤더 영역 */
+#instructorsMain_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+/* 메인 헤더 타이틀 */
+#instructorsMain_header_title {
+  font-size: 25px;
+  font-weight: bold;
+}
+/* 메인 헤더 검색창 caption */
+#instructorsMain_header_searchCaption {
+  font-size: 18px;
+}
+/* 메인 헤더 검색 입력창 */
+#instructorsMain_header_searchInput {
+  height: 30px;
+  margin: 0px 20px;
+}
+/* 메인 헤더 검색 버튼 */
+#instructorsMain_header_searchBtn {
+  height: 30px;
+  font-size: 18px;
+  padding: 0px 8px;
+  text-align: center;
+}
+
+/* 공지사항이 표시되는 테이블 */
+#instructorsMain_table {
+  border: 1px black solid;
+  min-height: 50px;
+}
+
+/* 테이블 헤더 */
+#instructorsMain_tableHeader {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px black solid;
+  padding: 10px 0px;
+}
+/* 테이블 본문 각 내용 */
+#instructorsMain_tableEachContent {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0px;
+  cursor: pointer;
+}
+/* 테이블의 각 칸 스타일(헤더, 본문 모두 해당) */
+.instructorsMain_tableEachBlock {
+  padding: 0px 10px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#instructorsMain_eachName {
+  width: 20%;
+}
+#instructorsMain_eachPhoneNum {
+  width: 20%;
+}
+#instructorsMain_eachGenre {
+  width: 20%;
+}
+#instructorsMain_eachRate {
+  width: 20%;
+}
+#instructorsMain_eachRegisteredDate {
+  width: 20%;
+}
+/* 강사 등록 버튼 */
+#instructorsMain_registerBtnDiv {
+  margin-top: 20px;
+  text-align: right;
+}
+#instructorsMain_registerBtn {
+  padding: 5px 10px;
+  font-size: 17px;
+}
+/* 강사 없음 표시 텍스트 */
+#instructorsMain_noContents {
+  height: 50px; /* 테이블의 min-height 값과 동일 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

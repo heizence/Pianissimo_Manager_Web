@@ -1,0 +1,80 @@
+/* 컨텐츠가 표시되는 영역 */
+#RegisterLessonMain_container {
+  min-height: 95vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+#RegisterLessonMain_contents {
+  margin: auto auto;
+}
+/* 닫기 버튼 */
+#RegisterLessonMain_closeBtn {
+  font-size: 20px;
+  padding: 5px;
+  cursor: pointer;
+}
+/* 각 정보 div*/
+.RegisterLessonMain_eachInfoRow {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+}
+/* 강사 추가 버튼 영역 */
+#RegisterLessonMain_instructorsBtnDiv {
+  margin: 10px 0px;
+}
+/* 레슨 등록된 강사 정보 영역 */
+#RegisterLessonMain_instructorsDiv {
+  padding: 10px;
+  margin: 20px 0px;
+  width: 400px;
+  min-height: 200px;
+  border: 1px solid black;
+}
+/* 강사 추가 버튼 영역 */
+#RegisterLessonMain_addInstructorsBtnDiv {
+  margin-top: 10px;
+  width: 400px;
+}
+/* 각 강사 버튼 */
+.RegisterLessonMain_eachInstructorBtn {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 5px;
+}
+/* 선택된 강사 버튼 영역 */
+.RegisterLessonMain_eachInstructorBtn2 {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  background-color: rgb(203, 203, 203);
+}
+.RegisterLessonMain_eachInstructorBtn2Div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* 선택된 강사 버튼 내부 텍스트 */
+.RegisterLessonMain_eachInstructorBtn2Txt {
+  font-size: 15px;
+}
+/* 선택된 강사 버튼 내부 취소 X 버튼 */
+.RegisterLessonMain_eachInstructorCancelBtn {
+  margin-left: 15px;
+  font-size: 15px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+/* 완료, 취소 버튼 영역 */
+#RegisterLessonMain_btnDiv {
+  margin-top: 10px;
+}
+.RegisterLessonMain_eachBtn {
+  font-size: 17px;
+  padding: 8px 12px;
+  border-width: 0px;
+  margin-right: 20px;
+}

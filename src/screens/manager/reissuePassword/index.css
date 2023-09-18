@@ -1,0 +1,33 @@
+/* 전체 컨테이너 */
+#reissuePassword_container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* 화면 header title */
+#reissuePassword_header {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+/* 입력창 라벨 */
+.reissuePassword_inputLabel {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+/* 입력창 */
+.reissuePassword_input {
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+/* 비밀번호 재발급 버튼 */
+#reissuePassword_reissuePasswordBtn {
+  font-size: 20px;
+  padding: 8px 15px;
+  border-width: 0px;
+  margin-top: 20px;
+}

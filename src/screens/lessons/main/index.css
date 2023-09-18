@@ -1,0 +1,118 @@
+/* 컨텐츠가 표시되는 영역 */
+#LessonRegisteredMain_container {
+  min-height: 95vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+/* 레슨 등록 현황 테이블 */
+#LessonRegisteredMain_table {
+  margin-top: 40px;
+}
+/* 메인 헤더 타이틀 */
+#LessonRegisteredMain_header {
+  margin-top: 40px;
+}
+/* 레슨 등록 현황 테이블 헤더 */
+#LessonRegisteredMain_tableHeader {
+  display: flex;
+  flex-direction: row;
+}
+.LessonRegisteredMain_tableEachHeaderBox {
+  font-size: 25px;
+  padding: 10px;
+}
+/* 레슨 등록 현황 테이블 본문 */
+#LessonRegisteredMain_tableBody {
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid black; */
+}
+/* 테이블 각 본문 칸 */
+.LessonRegisteredMain_tableEachBox {
+  padding: 5px;
+  width: 12%;
+  height: 70px;
+  text-align: center;
+  /* cursor: pointer; */
+}
+/* 레슨 등록 가능 영역 스타일(파란색 칸) */
+.LessonRegisteredMain_tableEachBox_available {
+  padding: 5px;
+  width: 12%;
+  height: 70px;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgb(159, 251, 251);
+}
+/* 등록된 레슨 데이터 수정 가능 영역 스타일 */
+.LessonRegisteredMain_tableEachBox_editable {
+  padding: 5px;
+  width: 12%;
+  height: 70px;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgb(240, 240, 240);
+}
+
+/* 조회 날짜 선택 버튼 영역 */
+#LessonRegisteredMain_PageButtonContainer {
+  margin-top: 40px;
+  text-align: center;
+}
+/* 날짜 범위 선택 버튼 */
+.LessonRegisteredMain_PageEachButton {
+  font-size: 20px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+/* 조회 날짜 표시 */
+#LessonRegisteredMain_PageButtonDate {
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+/******************** 각 레슨 정보 모달 스타일 ************************/
+#EachLessonInfoModal_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+/* 닫기 버튼 */
+#EachLessonInfoModal_closeBtn {
+  font-size: 20px;
+  padding: 5px;
+  cursor: pointer;
+}
+/* 각 정보 div*/
+.EachLessonInfoModal_eachInfoRow {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* 레슨 등록된 강사 정보 영역 */
+#EachLessonInfoModal_instructorsDiv {
+  padding: 10px;
+  margin: 20px 0px;
+  min-height: 200px;
+  border: 1px solid black;
+}
+/* 각 강사 버튼 */
+.EachLessonInfoModal_eachInstructor {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  background-color: rgb(203, 203, 203);
+}
+/* 버튼 영역 */
+#EachLessonInfoModal_btnDiv {
+  margin-top: 10px;
+}
+.EachLessonInfoModal_eachBtn {
+  font-size: 17px;
+  padding: 8px 12px;
+  border-width: 0px;
+  margin-right: 20px;
+}

@@ -1,0 +1,144 @@
+/* 컨텐츠가 표시되는 영역 */
+#PracticeRoomMain_container {
+  min-height: 95vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+/* 메인 헤더 영역 */
+#PracticeRoomMain_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+/* 메인 헤더 타이틀 */
+#PracticeRoomMain_header_title {
+  font-size: 25px;
+  font-weight: bold;
+}
+/* 메인 헤더 검색창 caption */
+#PracticeRoomMain_header_searchCaption {
+  font-size: 18px;
+}
+/* 메인 헤더 검색 입력창 */
+#PracticeRoomMain_header_searchInput {
+  height: 30px;
+  margin: 0px 20px;
+}
+/* 검색 버튼 */
+#PracticeRoomMain_searchBtn {
+  height: 30px;
+  font-size: 18px;
+  padding: 0px 8px;
+  text-align: center;
+}
+
+/* 연습실이 표시되는 테이블 */
+#PracticeRoomMain_table {
+  border: 1px black solid;
+  min-height: 50px;
+}
+
+/* 테이블 헤더 */
+#PracticeRoomMain_tableHeader {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px black solid;
+  padding: 10px 0px;
+}
+/* 테이블 본문 각 내용 */
+#PracticeRoomMain_tableEachContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 0px;
+}
+/* 테이블의 각 칸 스타일(헤더, 본문 모두 해당) */
+.PracticeRoomMain_tableEachBlock {
+  padding: 0px 10px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#PracticeRoomMain_eachName {
+  width: 33%;
+}
+#PracticeRoomMain_eachRegisteredDate {
+  width: 33%;
+}
+#PracticeRoomMain_buttonArea {
+  width: 33%;
+}
+/* 연습실 수정, 삭제 버튼 영역 */
+#PracticeRoomMain_eachBtnDiv {
+  margin: auto auto;
+}
+/* 연습실 수정, 삭제 버튼 */
+#PracticeRoomMain_editOrDeleteBtn {
+  font-size: 15px;
+  text-align: center;
+  margin-left: 20px;
+}
+/* 연습실 등록 버튼 */
+#PracticeRoomMain_registerBtnDiv {
+  margin-top: 20px;
+  text-align: right;
+}
+#PracticeRoomMain_registerBtn {
+  padding: 5px 10px;
+  font-size: 17px;
+}
+/* 연습실 없음 표시 텍스트 */
+#PracticeRoomMain_noContents {
+  height: 50px; /* 테이블의 min-height 값과 동일 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/******************** 연습실 추가, 수정 모달 스타일 ************************/
+/* 내용이 표시되는 영역 */
+#PracticeRoomModal_Container {
+  margin: auto auto;
+}
+/* 각 정보 div*/
+.PracticeRoomModal_eachInfoRow {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* 입력창 div */
+#PracticeRoomModal_inputDiv {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+/* 입력창 라벨 */
+#PracticeRoomModal_inputLabel {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+/* 입력창 */
+#PracticeRoomModal_input {
+  height: 35px;
+  width: 200px;
+  font-size: 18px;
+}
+
+/* 버튼 영역 */
+#PracticeRoomModal_btnDiv {
+  margin-top: 20px;
+  text-align: center;
+}
+.PracticeRoomModal_eachBtn {
+  font-size: 17px;
+  padding: 8px 12px;
+  border-width: 0px;
+  margin-right: 20px;
+}

@@ -1,0 +1,161 @@
+/* 전체 컨테이너 */
+#PaymentMain_container {
+  min-height: 95vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* 화면 header title */
+#PaymentMain_header {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+/* 입력 영역 */
+#PaymentMain_inputSection {
+  margin: auto auto;
+}
+/* 각 입력 영역 div */
+.PaymentMain_eachInputSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  min-width: 440px;
+}
+/* 입력 영역 라벨 */
+.PaymentMain_inputLabel {
+  font-size: 18px;
+  margin-right: 10px;
+  flex: 1;
+}
+/* 실제 정보 입력 영역(input, select, checkbox 등) */
+.PaymentMain_inputSection {
+  flex: 2.5;
+}
+/* 입력창 */
+#PaymentMain_input {
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  margin-right: 20px;
+}
+/* 입력창 disabled 상태 스타일 */
+#PaymentMain_input[type="text"]:disabled {
+  background: #ffffff;
+  border: 1px solid black;
+}
+/* 이용권 선택 checkbox */
+#PaymentMain_checkboxDiv {
+  width: 300px;
+  display: flex;
+}
+.PaymentMain_eachCheckbox {
+  margin-right: 20px;
+  cursor: pointer;
+}
+#PaymentMain_dropdownBtn {
+  height: 30px;
+  font-size: 17px;
+}
+
+/* 각 버튼 버튼 */
+.PaymentMain_eachBtn {
+  font-size: 16px;
+  padding: 8px 12px;
+  border-width: 0px;
+}
+
+/**************************** 원생 찾기 모달 ****************************/
+/* 헤더 */
+#PaymentMain_modal_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+/* 닫기 버튼 */
+#PaymentMain_modal_closeBtn {
+  font-size: 20px;
+  padding: 5px;
+  cursor: pointer;
+}
+/* 검색 영역 */
+#PaymentMain_modal_searchArea {
+  margin-top: 20px;
+}
+/* 검색창 영역 */
+#PaymentMain_modal_searchInputArea {
+  margin-top: 10px;
+}
+/* 검색 입력창 */
+#PaymentMain_modal_searchInput {
+  width: 200px;
+  height: 40px;
+  font-size: 18px;
+}
+/* 검색 버튼 */
+#PaymentMain_modal_header_searchBtn {
+  font-size: 18px;
+  padding: 5px 10px;
+  margin-left: 20px;
+}
+
+/* 학생 정보가 표시되는 테이블 */
+#PaymentMain_modal_table {
+  margin-top: 20px;
+  border: 1px black solid;
+  min-height: 50px;
+}
+
+/* 테이블 헤더 */
+#PaymentMain_modal_tableHeader {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px black solid;
+  padding: 10px 0px;
+}
+/* 테이블 본문 각 내용 */
+#PaymentMain_modal_tableEachContent {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0px;
+  cursor: pointer;
+}
+/* 테이블의 각 칸 스타일(헤더, 본문 모두 해당) */
+.PaymentMain_modal_tableEachBlock {
+  padding: 0px 10px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#PaymentMain_modal_eachId {
+  width: 25%;
+}
+#PaymentMain_modal_eachName {
+  width: 25%;
+}
+#PaymentMain_modal_eachPhoneNum {
+  width: 25%;
+}
+#PaymentMain_modal_eachRegisteredDate {
+  width: 25%;
+}
+/* 공지사항 등록 버튼 */
+#PaymentMain_modal_registerBtnDiv {
+  margin-top: 20px;
+  text-align: right;
+}
+#PaymentMain_modal_registerBtn {
+  padding: 5px 10px;
+  font-size: 17px;
+}
+/* 공지사항 없음 표시 텍스트 */
+#PaymentMain_modal_noContents {
+  height: 50px; /* 테이블의 min-height 값과 동일 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

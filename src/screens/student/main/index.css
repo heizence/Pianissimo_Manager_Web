@@ -1,0 +1,100 @@
+/* 컨텐츠가 표시되는 영역 */
+#studentMain_container {
+  min-height: 95vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+/* 메인 헤더 영역 */
+#studentMain_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+/* 메인 헤더 타이틀 */
+#studentMain_header_title {
+  font-size: 25px;
+  font-weight: bold;
+}
+/* 메인 헤더 검색창 caption */
+#studentMain_header_searchCaption {
+  font-size: 18px;
+}
+/* 메인 헤더 검색 입력창 */
+#studentMain_header_searchInput {
+  height: 30px;
+  margin: 0px 20px;
+}
+/* 메인 헤더 검색 버튼 */
+#studentMain_header_searchBtn {
+  height: 30px;
+  font-size: 18px;
+  padding: 0px 8px;
+  text-align: center;
+}
+/* 학생 정보가 표시되는 테이블 */
+#studentMain_table {
+  border: 1px black solid;
+  min-height: 50px;
+}
+
+/* 테이블 헤더 */
+#studentMain_tableHeader {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px black solid;
+  padding: 10px 0px;
+}
+/* 테이블 본문 각 내용 */
+#studentMain_tableEachContent {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0px;
+  cursor: pointer;
+}
+/* 테이블의 각 칸 스타일(헤더, 본문 모두 해당) */
+.studentMain_tableEachBlock {
+  padding: 0px 10px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#studentMain_eachId {
+  width: 25%;
+}
+#studentMain_eachName {
+  width: 15%;
+}
+#studentMain_eachPhoneNum {
+  width: 20%;
+}
+#studentMain_eachStatus {
+  width: 20%;
+}
+#studentMain_eachLessonsLeft {
+  width: 15%;
+}
+#studentMain_eachRegisteredDate {
+  width: 15%;
+}
+/* 공지사항 등록 버튼 */
+#studentMain_registerBtnDiv {
+  margin-top: 20px;
+  text-align: right;
+}
+#studentMain_registerBtn {
+  padding: 5px 10px;
+  font-size: 17px;
+}
+/* 공지사항 없음 표시 텍스트 */
+#studentMain_noContents {
+  height: 50px; /* 테이블의 min-height 값과 동일 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
