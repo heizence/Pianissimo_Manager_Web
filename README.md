@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+# Pianissimo_Manager_Web
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 프로젝트 설명
+피아노 학원에서 학원을 운영하는 관리자(원장 또는 매니저)가 학원 관리 및 서비스 제공을 효율적으로 수행하고 학원을 이용하는 원생들이 학원에 의해 제공되는 서비스를 편리하게 이용하기 위한 애플리케이션
 
-## Available Scripts
+애플리케이션은 관리자가 서비스를 관리하고 원생에게 서비스를 제공하기 위한 관리자 웹과 원생이 관리자가 제공하는 서비스를 이용하기 위해 사용하는 모바일 앱 이렇게 2가지로 구성되어 있다.
 
-In the project directory, you can run:
+본 Repository 는 관리자가 사용하는 관리자 웹에 해당됨.
 
-### `yarn start`
+### 제공되는 기능
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 관리자 계정 회원가입, 아이디, 비밀번호 재발급, 비밀번호 변경
+- 원생들이 보는 공지사항 조회, 등록, 수정, 삭제
+- 원생 정보 조회, 등록, 수정, 삭제원생 등록 및 삭제는 원생이 원생용 앱에서 사용할 계정을 생성하고 삭제하는 과정을 의미함. 회원가입 및 회원탈퇴에 해당.
+- 강사 정보 조회, 등록, 수정, 삭제
+- 레슨 정보 조회, 등록, 수정, 삭제
+- 원생 학원이용 결제
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+(*현재 개발 진행중)
